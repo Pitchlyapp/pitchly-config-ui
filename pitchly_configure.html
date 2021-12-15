@@ -1,0 +1,19 @@
+<template name="configureLoginServiceDialogForPitchly">
+  <p>
+    First, you'll need to get a Pitchly Client ID. Follow these steps:
+  </p>
+  <ol>
+    <li>
+      Visit <a href="https://platform.pitchly.com/apps" target="blank">https://platform.pitchly.com/apps</a>
+    </li>
+    <li>
+      Create a new app
+    </li>
+    <li>
+      Set Launch URL to: <span class="url">{{siteUrl}}</span>
+    </li>
+    <li>
+      Set Authorization callback URL to: <span class="url">{{siteUrl}}_oauth/pitchly</span>
+    </li>
+  </ol>
+</template>
